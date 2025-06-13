@@ -7,8 +7,7 @@ Just my daily time pass tracker
 
 - 📌 Organize questions by `year/month/day`
 - 🧹 Auto-generate markdown from a `source.txt`
-- 🔐 Uses modern Husky (v9+) with no deprecated commands
-- 🪄 Pre-commit hook auto-stages created files
+- 🗑️ Clean up `source.txt` after generation
 
 ### Usage
 
@@ -19,6 +18,6 @@ Just my daily time pass tracker
 
 2. Run:
    ```bash
-   npm run start-commit
+   npm run sync "add: two-sum"
    ```
    And you're done!
