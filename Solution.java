@@ -20,10 +20,19 @@ public class Solution {
         out.close();
         br.close();
     }
+    
+    // Example input
+    // int n = nextInt();
+    //     int[] a = new int[n];
+    //     for (int i = 0; i < n; i++) a[i] = nextInt();
+
+    // Example output
+    //     for (int x : a) out.print(x + " ");
+    //     out.println();
 
     static void solve() throws IOException {
         // Write here Brother!
-        
+
         
     }
 
