@@ -12,7 +12,7 @@ Just my daily time pass tracker
 
 ### Usage
 
-1. Edit `source.txt`:
+1. ADD `source.txt`:
    - Line 1: question link
    - Line 2: solution remark
    - Line 3+: Java code
