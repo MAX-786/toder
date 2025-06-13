@@ -1,0 +1,22 @@
+# Node modules
+node_modules/
+
+# Editor folders
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated content
+*.log
+
+# Output
+*.class
+*.jar
+
+# Temporary
+source.txt
+
+

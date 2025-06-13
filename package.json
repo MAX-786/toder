@@ -1,0 +1,25 @@
+{
+  "name": "toder",
+  "version": "1.0.0",
+  "description": "Just my daily time pass",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky",
+    "start-commit": "git add . && git commit -m \"add: coding question\" && git push || echo '⚠️ Push failed ( maybe try connecting to internet bro! )'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MAX-786/toder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MAX-786/toder/issues"
+  },
+  "homepage": "https://github.com/MAX-786/toder#readme",
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}
