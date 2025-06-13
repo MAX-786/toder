@@ -19,6 +19,6 @@ Just my daily time pass tracker
 
 2. Run:
    ```bash
-   git add .
-   git commit -m "feat: added <question-name>"
+   npm run start-commit
    ```
+   And you're done!
