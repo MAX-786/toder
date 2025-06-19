@@ -83,6 +83,7 @@ console.log(`✅ Created ${fullPath}`);
 // Stage the new file
 execSync(`git add "${fullPath}"`);
 execSync(`git commit -m "add: ${slug}"`);
+execSync(`git push`);
 
 // Clear source.txt
 fs.writeFileSync(SOURCE_PATH, "");

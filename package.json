@@ -4,7 +4,7 @@
   "description": "Just my daily time pass",
   "main": "index.js",
   "scripts": {
-    "sync": "./git-auto.sh"
+    "sync": "node scripts/precommit.js"
   },
   "repository": {
     "type": "git",
