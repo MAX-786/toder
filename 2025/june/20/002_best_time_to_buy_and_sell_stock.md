@@ -2,31 +2,6 @@
 [https://leetcode.com/problems/best-time-to-buy-and-sell-stock/](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
 ## 📝 Solution Remarks
-class Solution {
-    public int maxProfit(int[] prices) {
-        // Initialize minPrice to a very large value to ensure the first price becomes the min.
-        int minPrice = Integer.MAX_VALUE;
-        int maxProfit = 0;
-
-        // Iterate through the prices array once.
-        for (int i = 0; i < prices.length; i++) {
-            // Check if we've found a new, lower price to buy at.
-            if (prices[i] < minPrice) {
-                minPrice = prices[i];
-            } 
-            // Check if selling at the current price gives us a better profit
-            // than we've seen so far.
-            else if (prices[i] - minPrice > maxProfit) {
-                maxProfit = prices[i] - minPrice;
-            }
-        }
-        
-        return maxProfit;
-    }
-}
-
-## 💻 Java Solution
-```java
 Revision Notes
 
     Problem: Best Time to Buy/Sell Stock (LC 121)
@@ -52,4 +27,28 @@ Revision Notes
     Critical DS/Algos: Single pass array traversal.
 
     Time/Space (Optimal): O(N) Time / O(1) Space.
+## 💻 Java Solution
+```java
+class Solution {
+    public int maxProfit(int[] prices) {
+        // Initialize minPrice to a very large value to ensure the first price becomes the min.
+        int minPrice = Integer.MAX_VALUE;
+        int maxProfit = 0;
+
+        // Iterate through the prices array once.
+        for (int i = 0; i < prices.length; i++) {
+            // Check if we've found a new, lower price to buy at.
+            if (prices[i] < minPrice) {
+                minPrice = prices[i];
+            } 
+            // Check if selling at the current price gives us a better profit
+            // than we've seen so far.
+            else if (prices[i] - minPrice > maxProfit) {
+                maxProfit = prices[i] - minPrice;
+            }
+        }
+        
+        return maxProfit;
+    }
+}
 ```
